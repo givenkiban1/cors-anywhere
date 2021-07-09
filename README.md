@@ -5,7 +5,7 @@
 
 **NB** This repo is a fork of the original and has been altered to allow sending and receiving of cookies. 
 
-`To send a cookie, store the value in a **request** header called **gift**. To read a cookie, read the **response** headers called **given** or **given2**; Currently, the only type of cookies supported are objects/arrays or json objects. to change this, read through the comments i made in lib/cors-anywhere.js file and make relevant changes.`
+To send a cookie, store the value in a **request** header called **gift**. To read a cookie, read the **response** headers called **given** or **given2**; Currently, the only type of cookies supported are objects/arrays or json objects. to change this, read through the comments i made in lib/cors-anywhere.js file and make relevant changes.
 
 
 The url to proxy is literally taken from the path, validated and proxied. The protocol
